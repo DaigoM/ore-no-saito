@@ -1,0 +1,147 @@
+@cor-padrao-tituo: #bbbbbb; //#e0e0e0
+@cor-padrao-texto: #b9b9b9;
+@cor-decorativo: #8f862b;
+@cor-botao-destaque: #e09b34;
+@cor-background-escurecido: rgba(0,0,0,.7);
+@cor-background-solido: #1c1c1c;
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu');
+
+.background-with-image(@img) {
+	background-image: @img;
+	background-size: cover;
+	background-position: top center;
+	height: 100%;
+	position: relative;
+}
+
+.background-with-parallax(@img) {
+	background-attachment: fixed;
+	.background-with-image(@img);
+}
+
+html,
+body {
+	height: 100%;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 3em;
+	// margin-bottom: 5%;
+	font-family: 'Permanent Marker', cursive;
+	color: @cor-padrao-tituo;
+}
+
+h2 {
+	color: @cor-padrao-texto;
+}
+
+p {
+	line-height: 1.7;
+	font-family: 'Titillium Web', sans-serif;
+	color: @cor-padrao-texto;
+}
+
+.barra-separador {
+	width: 10%;
+	height: 1px;
+	display: block;
+	margin: 5% auto;
+	background-color: @cor-botao-destaque;
+}
+
+header {
+	.background-with-parallax( url(../img/city_grayscale.jpg) );
+
+	.custom-navbar {
+		background-color: @cor-background-solido;
+		border-color: @cor-background-solido;
+	}
+
+	.navbar-brand i {
+		color: @cor-botao-destaque;
+	}
+	.navbar-default{
+
+		.navbar-nav {
+			li {
+				> a {
+				color: @cor-padrao-texto;
+					&:hover{
+						color: lighten(@cor-padrao-texto, 8);
+					}
+					&:focus{
+						color: lighten(@cor-padrao-texto, 8);
+					}
+					&:active {
+						color: darken(@cor-padrao-texto, 8);
+						border-color: darken(@cor-padrao-texto, 8);
+					}
+				}
+			}
+			
+		}
+	}
+
+
+	.portfolio-info-wrapper {
+		width: 100%;
+		height: 100%;
+		background-color: @cor-background-escurecido;
+		.nome-job{
+			margin-bottom: 5%;
+			> * {
+				font-weight: 800;
+				line-height: 1.7;
+			}
+		}
+		.portfolio-info {
+			width: 50%;
+			margin-top: 15%;
+			@media not all and (min-width: 768px) {
+				width: 100%;
+			}
+		}
+	}
+
+}
+
+#projetos {
+	padding: 5% 9%;
+	background-color: @cor-background-solido;
+	.row {
+		.projeto{
+			.thumbnail {
+				img {
+
+				}
+			}
+		}
+	}
+}
+
+#sobre {
+	.background-with-parallax( url(../img/tablet-coffee_4460x4460.jpg) );
+	height: auto;
+	.sobre-diego {
+		padding: 5% 9%;
+		width: 100%;
+		// height: 100%;
+		background-color: @cor-background-escurecido;
+		.img-perfil {
+			width: 150px;
+			height: 150px;
+			background-color: @cor-background-solido;
+		}
+	}
+}
+
+#citacao {
+
+}
+
+#contato {
+	
+}

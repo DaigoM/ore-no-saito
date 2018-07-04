@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu');
+html,
+body {
+  height: 100%;
+  font-size: 18px;
+}
+h1 {
+  font-size: 3em;
+  font-family: 'Permanent Marker', cursive;
+  color: #bbbbbb;
+}
+h2 {
+  color: #b9b9b9;
+}
+p {
+  line-height: 1.7;
+  font-family: 'Titillium Web', sans-serif;
+  color: #b9b9b9;
+}
+.barra-separador {
+  width: 10%;
+  height: 1px;
+  display: block;
+  margin: 5% auto;
+  background-color: #e09b34;
+}
+header {
+  background-attachment: fixed;
+  background-image: url(../img/city_grayscale.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 100%;
+  position: relative;
+}
+header .custom-navbar {
+  background-color: #1c1c1c;
+  border-color: #1c1c1c;
+}
+header .navbar-brand i {
+  color: #e09b34;
+}
+header .navbar-default .navbar-nav li > a {
+  color: #b9b9b9;
+}
+header .navbar-default .navbar-nav li > a:hover {
+  color: #cdcdcd;
+}
+header .navbar-default .navbar-nav li > a:focus {
+  color: #cdcdcd;
+}
+header .navbar-default .navbar-nav li > a:active {
+  color: #a5a5a5;
+  border-color: #a5a5a5;
+}
+header .portfolio-info-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+header .portfolio-info-wrapper .nome-job {
+  margin-bottom: 5%;
+}
+header .portfolio-info-wrapper .nome-job > * {
+  font-weight: 800;
+  line-height: 1.7;
+}
+header .portfolio-info-wrapper .portfolio-info {
+  width: 50%;
+  margin-top: 15%;
+}
+@media not all and (min-width: 768px) {
+  header .portfolio-info-wrapper .portfolio-info {
+    width: 100%;
+  }
+}
+#projetos {
+  padding: 5% 9%;
+  background-color: #1c1c1c;
+}
+#sobre {
+  background-attachment: fixed;
+  background-image: url(../img/tablet-coffee_4460x4460.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 100%;
+  position: relative;
+  height: auto;
+}
+#sobre .sobre-diego {
+  padding: 5% 9%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#sobre .sobre-diego .img-perfil {
+  width: 150px;
+  height: 150px;
+  background-color: #1c1c1c;
+}

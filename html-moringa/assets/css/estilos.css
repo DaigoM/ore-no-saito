@@ -1,0 +1,476 @@
+#paineis-sobre {
+  margin-top: 20px;
+}
+html,
+body {
+  height: 100%;
+  font-size: 14px;
+}
+header {
+  background-image: url(../img/moringa/header1.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 100%;
+  position: relative;
+}
+.custom-navbar {
+  background-color: rgba(124, 181, 63, 0.75);
+  border-width: 0;
+}
+.navbar-default .navbar-brand {
+  color: #f8f8f8;
+  font-size: 24px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transition: .5s;
+}
+.navbar-default .navbar-brand:hover {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:active {
+  color: #ebebeb;
+}
+.navbar-default .navbar-brand.scrolldown {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-default .navbar-brand > i {
+  font-size: 22px;
+}
+@media not all and (min-width: 768px) {
+  .navbar-default .navbar-brand {
+    padding-top: 10px;
+  }
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f8f8f8;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transition: .5s;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:active {
+  color: #ebebeb;
+}
+.navbar-default .navbar-nav > li > a.scrolldown {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-default .navbar-nav .active > a {
+  background-color: #7cb53f;
+}
+.navbar-default .navbar-nav .active > a:hover {
+  background-color: #89c14d;
+}
+.navbar-default .navbar-nav .active > a:focus {
+  background-color: #89c14d;
+}
+.navbar-default .navbar-nav .active > a:active {
+  background-color: #6fa238;
+}
+.navbar-default .second-navbar-row {
+  padding: 0 8%;
+}
+.navbar-default .first-navbar-row {
+  width: 100%;
+  background-color: #7cb53f;
+  padding: 0 11.5%;
+}
+.navbar-default .first-navbar-row li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-default .first-navbar-row li > a .fab {
+  font-size: 15px;
+}
+.btn.btn-primary {
+  background-color: #7cb53f;
+  border-color: #7cb53f;
+}
+.btn.btn-primary:hover {
+  background-color: #89c14d;
+  border-color: #89c14d;
+  text-decoration: underline;
+}
+.btn.btn-primary:focus {
+  background-color: #89c14d;
+  border-color: #89c14d;
+}
+.btn.btn-primary:active {
+  background-color: #6fa238;
+  border-color: #6fa238;
+}
+header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#return-to-top {
+  position: fixed;
+  font-size: 2.5em;
+  right: 6%;
+  bottom: 2%;
+  width: 50px;
+  height: 50px;
+  background-color: #7cb53f;
+  cursor: pointer;
+  border-radius: 50%;
+  display: none;
+  z-index: 9999;
+  color: #f8f8f8;
+}
+.moringa-banner-wrapper {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+.moringa-banner-wrapper .moringa-banner {
+  color: #fff;
+  transform: translate(0vw, 40vh);
+  width: 50%;
+  transition: transform .3s;
+  text-align: center;
+  font-size: 20px;
+}
+.moringa-banner-wrapper .moringa-banner > * {
+  margin-top: 20px;
+}
+@media not all and (min-width: 768px) {
+  .moringa-banner-wrapper .moringa-banner {
+    transform: translate(0vw, 25vh);
+  }
+}
+.text-default-color {
+  color: #7cb53f;
+}
+.row-divisor {
+  background-color: #7cb53f;
+  width: 60px;
+  height: 5px;
+}
+#sobre-nos {
+  background-color: #fff;
+  background-size: cover;
+  background-position: top center;
+  padding: 5% 9%;
+  position: relative;
+}
+#sobre-nos > * {
+  display: inline-block;
+}
+#sobre-nos .text-center > * {
+  margin: 2% auto;
+}
+#sobre-nos > p {
+  width: 80%;
+  font-size: 18px;
+}
+#sobre-moringa .item {
+  overflow: hidden;
+  padding: 0;
+}
+#sobre-moringa .row > * {
+  display: inline-block;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.overlay .overlay-content {
+  width: 100%;
+  height: 100%;
+}
+.overlay .overlay-content .overlay-text {
+  width: 80%;
+  margin: 0 auto;
+  color: #f8f8f8;
+}
+@media (max-width: 1024px) {
+  .overlay .overlay-content .overlay-text {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .overlay .overlay-content .overlay-text {
+    padding-top: 10%;
+  }
+}
+@media not all and (min-width: 768px) {
+  .overlay .overlay-content .overlay-text {
+    padding-top: 10%;
+  }
+}
+.overlay .overlay-content .overlay-text img {
+  width: 5em;
+}
+@media (min-width: 1280px) {
+  .overlay .overlay-content .overlay-text img {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .overlay .overlay-content .overlay-text img {
+    width: 3.5em;
+  }
+}
+@media not all and (min-width: 768px) {
+  .overlay .overlay-content .overlay-text img {
+    width: 5em;
+  }
+}
+@media (min-width: 768px) {
+  .overlay .overlay-content .overlay-text .folio-info h3 {
+    font-size: 1.3em;
+  }
+}
+.overlay .overlay-content .overlay-text .folio-info > * {
+  margin-top: 10px;
+}
+@media (max-width: 1024px) {
+  .overlay .overlay-content .overlay-text .folio-info > * {
+    margin: 0;
+  }
+}
+#comparacao {
+  padding: 5% 9%;
+}
+#comparacao .thumbnail .food-icon {
+  width: 13%;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+#comparacao .thumbnail .caption > h3 {
+  width: 80%;
+}
+#comparacao .thumbnail .caption p {
+  height: 60px;
+}
+#carrousel {
+  background-image: url(../img/moringa/header2.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  position: relative;
+}
+#carrousel .row {
+  height: 100%;
+  padding-top: 10%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+@media (min-width: 1024px) {
+  #carrousel .row {
+    padding-top: 7%;
+  }
+}
+#carrousel .carrousel-content {
+  width: 75%;
+  color: #f8f8f8;
+}
+#carrousel .carrousel-content p {
+  margin-top: 2%;
+}
+#carrousel .green-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #7cb53f;
+}
+#carrousel .green-circle i {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+#carrousel .buttons button {
+  margin: 2% auto;
+}
+#estatisticas-estimativa {
+  padding: 5% 9%;
+}
+#estatisticas-estimativa .estatisticas {
+  height: 420px;
+}
+@media not all and (min-width: 768px) {
+  #estatisticas-estimativa .estatisticas {
+    height: auto;
+    margin-bottom: 15px;
+  }
+}
+#estatisticas-estimativa .estatisticas .estatistica > * {
+  display: inline-block;
+}
+#estatisticas-estimativa .estatisticas .estatistica .estati-info {
+  margin-top: 20px;
+  max-width: 50px;
+}
+#estatisticas-estimativa .estatisticas .estatistica img {
+  vertical-align: top;
+  width: 65px;
+  height: 75px;
+}
+#estatisticas-estimativa .estimativa {
+  height: 420px;
+  color: #f8f8f8;
+  background-color: #1a1a1a;
+}
+#estatisticas-estimativa .estimativa .row {
+  margin-top: 15px;
+}
+#estatisticas-estimativa .estimativa form .form-control {
+  margin-bottom: 15px;
+}
+#estatisticas-estimativa .estimativa form textarea {
+  height: 84px;
+}
+#estatisticas-estimativa .estimativa form button {
+  margin-bottom: 15px;
+}
+#our-client {
+  background-color: #f5f5f5;
+}
+#our-client .client-contents {
+  padding-left: 0;
+}
+@media (min-width: 768px) {
+  #our-client .client-contents {
+    padding-left: 15%;
+  }
+}
+#our-client .client-contents .thumbnail {
+  height: 150px;
+  margin-bottom: 20px;
+}
+#our-client .client-contents .thumbnail img {
+  max-height: 70%;
+  max-width: 80%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 5px 5px 20px 5px;
+}
+#information-map {
+  padding: 5% 9%;
+}
+#information-map .information > * {
+  margin: 15px 0;
+}
+#information-map .information .panel-group {
+  padding: 0;
+}
+#information-map .information .panel-group .panel-heading {
+  background-color: #7cb53f;
+  border-color: #6fa238;
+  transition: .5s;
+}
+#information-map .information .panel-group .panel-heading.collapsed {
+  background-color: #f5f5f5;
+}
+#information-map .map > * {
+  margin: 15px 0;
+}
+#information-map .map .google-maps {
+  height: 300px;
+  padding: 0;
+}
+#information-map .map #map_canvas {
+  width: 100%;
+  height: 300px;
+}
+@media not all and (min-width: 991px) {
+  #information-map .map .maps-info {
+    padding: 0;
+  }
+}
+#preparo {
+  background-image: url(../img/moringa/preparo.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 25%;
+  position: relative;
+}
+#preparo .row {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+}
+#preparo .preparo-content {
+  margin-top: 4%;
+  color: #f8f8f8;
+}
+#preparo .preparo-content h3 {
+  margin-right: 50px;
+}
+@media not all and (min-width: 768px) {
+  #preparo .preparo-content h3 {
+    margin-right: 0;
+  }
+}
+#preparo .preparo-content > * {
+  display: inline-block;
+}
+#footer {
+  color: #5a595f;
+}
+#footer .footer-top {
+  background-color: #1e1e1e;
+  padding: 5% 10%;
+}
+#footer .row > * {
+  padding: 1% 2%;
+}
+@media not all and (min-width: 991px) {
+  #footer .row > * {
+    text-align: center;
+  }
+}
+#footer h4 {
+  color: #f8f8f8;
+}
+#footer .company-mini-info > * {
+  display: block;
+}
+#footer .company-mini-info .company-logo {
+  font-size: 1.9em;
+}
+#footer .company-mini-info .company-logo span {
+  color: #f8f8f8;
+}
+#footer .quick-link ul {
+  padding-left: 0;
+}
+#footer .quick-link ul li {
+  list-style-type: none;
+}
+#footer .quick-link ul li a {
+  color: #5a595f;
+}
+#footer .footer-bottom {
+  background-color: #1a191e;
+  padding: 0 10%;
+}
+#footer .footer-bottom .copyright {
+  margin-top: 5px;
+}
+#footer .footer-bottom ul li {
+  float: left;
+}
+#footer .footer-bottom a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
