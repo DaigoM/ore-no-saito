@@ -3,6 +3,7 @@
 html,
 body {
   height: 100%;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 18px;
 }
 h1 {
@@ -11,11 +12,11 @@ h1 {
   color: #bbbbbb;
 }
 h2 {
+  margin-bottom: 5%;
   color: #b9b9b9;
 }
 p {
   line-height: 1.7;
-  font-family: 'Titillium Web', sans-serif;
   color: #b9b9b9;
 }
 .barra-separador {
@@ -72,6 +73,7 @@ header .portfolio-info-wrapper .portfolio-info {
 @media not all and (min-width: 768px) {
   header .portfolio-info-wrapper .portfolio-info {
     width: 100%;
+    margin-top: 30%;
   }
 }
 #projetos {
@@ -88,7 +90,7 @@ header .portfolio-info-wrapper .portfolio-info {
   height: auto;
 }
 #sobre .sobre-diego {
-  padding: 5% 9%;
+  padding: 5% 19%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -96,4 +98,34 @@ header .portfolio-info-wrapper .portfolio-info {
   width: 150px;
   height: 150px;
   background-color: #1c1c1c;
+}
+#contato {
+  background-color: #1c1c1c;
+  height: auto;
+}
+#contato .contato-content {
+  padding: 5% 19%;
+  width: 100%;
+}
+#contato .contato-content .contato-link a {
+  color: #e09b34;
+}
+#contato .contato-content .contato-link a:hover {
+  color: #e3a64a;
+  border-color: #e3a64a;
+  text-decoration: underline;
+}
+#contato .contato-content .contato-link a:focus {
+  color: #e3a64a;
+  border-color: #e3a64a;
+}
+#contato .contato-content .contato-link a:active {
+  color: #d98f21;
+  border-color: #d98f21;
+}
+.footer {
+  background-color: #1c1c1c;
+}
+.footer .footer-content {
+  background-color: rgba(0, 0, 0, 0.7);
 }
